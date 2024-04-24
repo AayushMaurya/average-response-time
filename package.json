@@ -1,0 +1,19 @@
+{
+  "name": "eh-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard for various activities over sub-accounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.2"
+  },
+  "type": "module"
+}
